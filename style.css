@@ -1,0 +1,136 @@
+*{
+  font-family: "Montserrat", sans-serif;
+
+}
+
+h1, h2, h3, .h1, .h2, .h3{
+    font-family: "Electrolize", sans-serif 
+}
+
+:root{
+    --vl: #a84db8;
+   --bl: rgb(73,151,204);
+   --gl: rgb(255, 255, 0);
+}
+
+/* body{
+    background-color: var(--bl);
+    width: 100%;
+} */
+
+/* sezione header */
+.header-custom{
+    background-image: url(./media/bg-1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 92vh;
+
+ 
+    
+}
+
+h1{
+    color: var(--gl);
+    font-size: 50px;
+    font-weight: 400;
+    font-style: normal;
+    
+
+}
+
+/* fine sezione header */
+      
+/* navbar */
+.navigatori{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 8vh;
+    list-style: none;
+
+}
+
+/* fine navbar */
+
+/* main */
+
+/* main{
+    background-color: var(--bl);
+    height: 100vh;
+} */
+
+.bg-bl{
+background-color: var(--bl) ;
+}
+
+.bg-vl{
+    background-color: var(--vl) ;
+}
+
+.bg-gl{
+    background-color: var(--gl) ;
+}
+
+.text-bl{
+    color:var(--bl) ;
+
+}
+.text-vl{
+    color:var(--vl) ;
+
+}
+
+.text-gl{
+    color:var(--gl) ;
+
+}
+
+/* sezione arcade */
+
+.linea{
+    height: 5px;
+    background-color: var(--gl);
+    width: 70%;
+
+}
+
+/* fine sezione arcade */
+
+/* sezione docente */
+.back2{
+font-size: 1rem;
+}
+
+.sfondo2{
+    background-image: url(./media/bg-3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+   
+}
+ .docente{
+background-image: url(./media/bg-3.jpg);
+background-position: center;
+background-size: cover;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 100vh;
+ }
+
+/* media query */
+
+@media screen and(min-width:500px){
+.display-2{
+
+    font-size: 1.5rem;
+    text-align: center;
+}
+navbar{
+    width:100%;
+}
+.faq{
+    margin: 0;
+}
+}
